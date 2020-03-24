@@ -18,7 +18,6 @@ use App\Validator\Budget;
  *      }
  * )
  * @ORM\Entity(repositoryClass="App\Repository\TransfertsRepository")
- * @Budget
  */
 class Transferts
 {
