@@ -14,6 +14,7 @@ use App\Validator\Budget;
  *          "post"={
  *              "method"="POST",
  *              "controller"=TransfertsController::class,
+ *              "access_control"="is_granted('CREATE', object)"
  *          }
  *      }
  * )
